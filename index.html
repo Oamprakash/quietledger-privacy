@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuietLedger Privacy Policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b1f2a; --muted:#5b6475; --accent:#1E2A4A; --rule:#e3e6ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --fg:#e7e9ee; --muted:#a2a9b8; --accent:#9fb3e8; --rule:#2a2f3a; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; color:var(--accent); }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:16px; border-top:1px solid var(--rule); }
+  .meta { color:var(--muted); margin:0 0 24px; }
+  ul { padding-left:1.25rem; } li { margin:4px 0; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>QuietLedger Privacy Policy</h1>
+<p class="meta">Last updated: 14 November 2026</p>
+
+<p>This policy explains how the QuietLedger Android app ("the App") handles information.</p>
+
+<h2>Summary</h2>
+<p>The App stores your financial data (expenses, categories, budgets, savings goals and receipt photos) only on your own device, encrypted. It has no user accounts and no server, and it never sends your financial data anywhere. The one exception is advertising: the App shows ads through Google AdMob, and Google collects some device and advertising data as described below.</p>
+
+<h2>Information stored on your device</h2>
+<p>The following is stored only on your device:</p>
+<ul>
+  <li>Expenses you enter (amount, category, date, note, payment method)</li>
+  <li>Categories, budgets and savings goals you create</li>
+  <li>Receipt photos you attach to an expense</li>
+  <li>An optional display name you enter, used only to greet you in the App</li>
+  <li>The PIN you set to unlock the App, stored only as a salted cryptographic hash</li>
+</ul>
+<p>Financial data and receipt photos are encrypted. None of this is uploaded to any server, because the developer does not run one. Uninstalling the App permanently deletes it.</p>
+
+<h2>Information the App does not collect</h2>
+<ul>
+  <li>No account, login or email address</li>
+  <li>No location data</li>
+  <li>No contacts, calendar, SMS or notification content</li>
+  <li>No analytics or usage tracking by the developer</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Camera</strong>: used only when you choose to photograph a receipt. Photos are encrypted and kept on your device.</li>
+  <li><strong>Biometrics</strong>: used only for fingerprint or face unlock. Android handles this itself; the App never sees your biometric data.</li>
+  <li><strong>Internet</strong>: used only to load ads.</li>
+</ul>
+<p>If you share or paste a bank alert message into the App, it is read on your device to pre-fill an expense and is not sent anywhere.</p>
+
+<h2>Advertising (Google AdMob)</h2>
+<p>The App shows banner and full-screen ads through Google AdMob. To serve ads, Google's AdMob SDK may collect and process:</p>
+<ul>
+  <li>Your advertising ID and other device identifiers</li>
+  <li>Ad-related usage data such as impressions and clicks</li>
+  <li>IP address and approximate (country or region) location, for ad relevance and fraud prevention</li>
+</ul>
+<p>Google collects and processes this data under its own <a href="https://policies.google.com/privacy">privacy policy</a>; the developer does not receive or store it. You can limit ad personalisation in your device settings (Settings → Google → Ads).</p>
+
+<h2>Data sharing</h2>
+<p>The developer does not sell, rent or share your financial data or name with anyone. The only data shared with a third party is the advertising data described above, which goes to Google.</p>
+
+<h2>Data deletion</h2>
+<p>Deleting an item in the App removes it permanently. Uninstalling the App removes all remaining data. There is no server copy to request deletion from.</p>
+
+<h2>Children</h2>
+<p>The App is not directed at children, and the developer does not knowingly collect information from children.</p>
+
+<h2>Security</h2>
+<p>The database is encrypted with SQLCipher (AES-256), and receipt photos use Android Keystore-backed encryption. App data is excluded from Android's automatic cloud backup.</p>
+
+<h2>Changes to this policy</h2>
+<p>If the App's data practices change, this page will be updated and the date above revised.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: please use the developer contact email on the QuietLedger Google Play listing.</p>
+</main>
+</body>
+</html>
